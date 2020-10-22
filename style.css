@@ -1,0 +1,89 @@
+header{
+	height: 100vh;
+	background-image: url(../img/interior5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.navbar{
+	z-index: 1;
+}
+
+.navbar-brand{
+	transition: .5s;
+}
+
+.navbar-brand:hover{
+	letter-spacing: 5px;
+}
+
+.nav-link{
+	margin-left: 20px;
+	transition: .5s;
+}
+
+.nav-link:hover{
+	transform: scale(1.1);
+}
+
+.jumbotron{
+	background: rgba(0,0,0,.5);
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 
+}
+
+.btn-outline-secondary{
+	transition: .5s;
+	border: 1px solid white;
+}
+
+.btn-outline-secondary:hover{
+	background: transparent;
+	transform: scale(1.1);
+}
+
+.service{
+	margin-top: 30px;
+}
+
+.card{
+	margin: 30px 0;
+}
+
+
+
+/*.media-body{
+	width: 50%;
+}
+*/
+.media img{
+	width: 50%;
+}
+
+.service-card{
+	background-image: url(../img/mewahInterior.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 100px;
+}
+
+.main{
+	padding: 100px;
+}
+
+footer{
+	padding: 20px 0;
+}
+
+@media (max-width: 768px){
+	.main{
+		width: 100%;
+	}
+}
